@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ora">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="STUDENT'S BIO"
+        android:textSize="30sp"
+        android:textColorHighlight="#212121"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textColor="#212121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="FIRST NAME :"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/firstname_textview"
+            android:textColor="#212121"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Aishwrya"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:text="LAST NAME :"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/lastname_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="A V"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="USN:"
+            android:textColor="#212121"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/usn_textview"
+            android:textColor="#212121"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="R16CS015"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="DOB:"
+            android:textColor="#212121"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/dob_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="21/07/1998"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:text="SEM - SEC :"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/semsec_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4 - A"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:text="COURSE:"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/course_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CSE"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:text="PHONE NUMBER :"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/phno_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1234567890"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+  </LinearLayout>
+ </ScrollView>
